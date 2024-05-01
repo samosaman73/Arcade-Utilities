@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Hackster"
-version = "1.2.0"
+version = "1.2.8"
 description = "Awesome hackster created by Hack The Box"
 authors = [
     "dimoschi <dimos@hackthebox.eu>",
@@ -8,6 +8,7 @@ authors = [
     "0xEmma <emma@hackthebox.eu>"
 ]
 license = "MIT"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -20,7 +21,7 @@ sqlalchemy = { extras = ["asyncio"], version = "^2.0.9" }
 bcrypt = "^4.0.1"
 asyncmy = "^0.2.7"
 fastapi = "^0.109.1"
-sentry-sdk = { extras = ["sqlalchemy"], version = "^1.20.0" }
+sentry-sdk = { extras = ["sqlalchemy"], version = "^1.45.0" }
 uvicorn = "^0.21.1"
 alembic = "^1.10.3"
 pymysql = "^1.0.3"
